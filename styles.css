@@ -32,7 +32,8 @@ h1 {
 
 figcaption {
     font-size: 16px;
-    font-style: bold;
+    font-style: sans-serif;
+    color: yellow;
 }
 
 figure {
@@ -67,11 +68,16 @@ header {
 
     max-width: 1200px;
     margin: 0 auto;
+    justify-items: center;
 }
 
 .full-width {
     grid-column: 1 / -1;
-    align-items: center;
+}
+
+.two-column {
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
 }
 
 /* IMAGES
